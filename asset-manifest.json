@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.ec35515a.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.5db13aa9.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.5db13aa9.chunk.js.map",
+    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.625ddec2.js",
+    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.625ddec2.js.map",
+    "static/js/2.bc68ee0b.chunk.js": "/My-Portfolio/static/js/2.bc68ee0b.chunk.js",
+    "static/js/2.bc68ee0b.chunk.js.map": "/My-Portfolio/static/js/2.bc68ee0b.chunk.js.map",
+    "index.html": "/My-Portfolio/index.html",
+    "precache-manifest.b0153fb2b85fdf688b9816f3e9009cf9.js": "/My-Portfolio/precache-manifest.b0153fb2b85fdf688b9816f3e9009cf9.js",
+    "service-worker.js": "/My-Portfolio/service-worker.js",
+    "static/css/main.ec35515a.chunk.css.map": "/My-Portfolio/static/css/main.ec35515a.chunk.css.map",
+    "static/js/2.bc68ee0b.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.bc68ee0b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/My-Portfolio/static/media/coffee-apple.2dd213aa.jpg",
+    "static/media/fifth.jpg": "/My-Portfolio/static/media/fifth.90616a5d.jpg",
+    "static/media/first.jpg": "/My-Portfolio/static/media/first.54fd4234.jpg",
+    "static/media/profile.JPG": "/My-Portfolio/static/media/profile.f47a213b.JPG",
+    "static/media/second.jpg": "/My-Portfolio/static/media/second.730958a2.jpg",
+    "static/media/third.jpg": "/My-Portfolio/static/media/third.a8b012a0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.625ddec2.js",
+    "static/js/2.bc68ee0b.chunk.js",
+    "static/css/main.ec35515a.chunk.css",
+    "static/js/main.5db13aa9.chunk.js"
+  ]
+}
