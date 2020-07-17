@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import MobileRightMenuSlider from "@material-ui/core/Drawer";
 import {
     AppBar,
+    Toolbar,
     ListItem,    
     IconButton,
     ListItemText,
@@ -16,14 +17,14 @@ import {
     
 } from "@material-ui/core";
 import {
-    ArrowBack,
+    
     AssignmentInd,
     Home,
     Apps,
     ContactMail
 } from "@material-ui/icons";
 import profile from '../components/profile.JPG';
-import Footer from './Footer';
+
 
 // CSS STYLES
 const useStyles = makeStyles(theme=>({
@@ -105,18 +106,21 @@ const Navbar = () => {
         <>
         <Box component="nav" >
             <AppBar position="static" style={{background:"#222"}} >
-                <IconButton onClick={togglerSlider("right", true)} >
-                     <ArrowBack style =  {{color: "tomato"}} />
+                <Toolbar>
+
+                <IconButton style={{color: 'tan' }} onClick={togglerSlider("right", true)} >
+                Menu
                 </IconButton>
                 <Typography variant="h5" style={{color: 'tan' }} >
-                    Portfolio
+                    
                 </Typography>
                 <MobileRightMenuSlider
                 anchor="left"
                 open={state.right} onClose={togglerSlider("right",false )} >
                     {sideList("right")}
-                    <Footer/>
+                    
                 </MobileRightMenuSlider>
+                </Toolbar>
             </AppBar>
         </Box>
       </>

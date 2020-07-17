@@ -1,8 +1,12 @@
 import React from 'react';
 import {makeStyles, withStyles } from "@material-ui/core/styles";
+import { BottomNavigationAction } from "@material-ui/core";
 import {TextField, Typography, Button, Grid, Box} from "@material-ui/core";
 import SendIcon from "@material-ui/icons/Send";
 import Navbar from "./Navbar";
+
+import Footer from './Footer';
+import PhoneIcon from '@material-ui/icons/Phone';
 
 const useStyles = makeStyles(theme=>({
     form: {
@@ -59,8 +63,19 @@ const Contacts = () => {
                     <Button className={classes.button} variant= "outlined" fullwidth={true} endIcon={<SendIcon />} >
                         contact me
                     </Button>
+                    <br /> 
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <Footer />
+                    
+                    <p style={{color:"tan"}} ><BottomNavigationAction className={classes.root} style={{padding: 0, color:"tomato" }} icon={<PhoneIcon/>} />+27 635 0846</p>
                 </Box>
+                
             </Grid>
+            
         </Box>
     );
 };

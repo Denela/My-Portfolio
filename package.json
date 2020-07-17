@@ -1,5 +1,4 @@
 {
-  
   "name": "portifolia",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +17,6 @@
     "react-typed": "^1.2.0"
   },
   "scripts": {
-    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

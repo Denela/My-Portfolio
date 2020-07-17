@@ -6,3 +6,14 @@ body {
   background: cover;
   
 }
+
+.skills {
+  font-family: sans-serif;
+  list-style: none;
+  padding: 0;
+  width: 500px;
+  margin: 60px;
+  color: white;
+}
+
+
