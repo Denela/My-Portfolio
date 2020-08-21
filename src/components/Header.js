@@ -6,14 +6,15 @@ import {
     Avatar,
     Grid,
     Box
+    
 } from "@material-ui/core";
 import profile from "../components/profile.JPG"
 
 // CSS STYLES
 const useStyles = makeStyles(theme => ({
     profile: {
-        width: theme.spacing(15),
-        height: theme.spacing(15),
+        width: theme.spacing(20),
+        height: theme.spacing(20),
         margin: theme.spacing(11),
     },
     title: {
@@ -31,6 +32,7 @@ const useStyles = makeStyles(theme => ({
         width: "100vw",
         textAlign: "center",
         zIndex: 1
+        
     }
 }));
 

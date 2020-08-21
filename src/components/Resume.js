@@ -72,7 +72,7 @@ const useStyles = makeStyles(theme=>({
         maxWidth: "9.375rem",
         margin: "0 3rem 0 auto",
         fontSize: "1.8rem",
-        background: "tomato",
+        background: "grey",
         color: "white",
         line: 1,
         padding: "0.5rem 0 1rem",
@@ -118,7 +118,9 @@ const Resume = () => {
                         </Typography>
                        
                         <Typography variant ="body1" align = "center" style={{color:"tan"}} >
-                             My full name is Derek Makore Gwekwerere, i was born on the 26th of December 1999,I belong to the male gender.I reside in Blackheath, Capetown.I do not hold any type of crimminal record nor any credit issues.Unfortunetly i am not able to relocate due to unforseen circumstances
+                        My full name is Derek Makore Gwekwerere. I am a male born on 26 December 1999. I
+reside in Blackheath, Capetown. I have no criminal record nor any credit issues. I am not
+available to relocate outside of Cape Town.
                         
                         </Typography>
                     </Box>
@@ -131,7 +133,11 @@ const Resume = () => {
                         </Typography>
                        
                         <Typography variant ="body1" align = "center" style={{color:"tan"}} >
-                            Firstly i am a determined,hardworking, God-fearing individual with exeptional perseverence skills. I believe that for one's brain to learn something it has to be challenged, therefore i try to make it a habit to try something new everyday. I would like to study computer science and ultimately become a fullstack web developer 
+                        I am a determined, hardworking, God-fearing individual with exceptional perseverance skills.
+I believe that for one's brain to learn something it has to be challenged, therefore I try make it
+a habitat to try something new every day. I would like to study computer science and
+ultimately become a full stack web developer.
+
                         
                         </Typography>
                     </Box>
@@ -144,7 +150,11 @@ const Resume = () => {
                         </Typography>
                        
                         <Typography variant ="body1" align = "center" style={{color:"tan"}} >
-                            I have been intrested in computers and coding since primary school but i never got the opportunity to explore this dream until i got a laptop as a birthday present when i turned 17. I started learning to code from scratch by myself through turtorials on YouTube, only to find out that i should have started earlier as i enjoyed every minute of each of these turtorials.
+                        I have been interested in computers and coding since primary school but never got the
+opportunity to explore this dream until I was given a laptop for my 17th birthday. I started
+learning coding from scratch by myself using tutorials on YouTube in my spare time. To this
+day, I am still using these tutorials to increase my knowledge.
+
                         
                         </Typography>
                     </Box>
@@ -170,7 +180,8 @@ const Resume = () => {
                         </Typography>
                        
                         <Typography variant ="body1" align = "center" style={{color:"tan"}} >
-                            I once worked as an intern for Tore's Foundation, in which i was responsible for organising and setting up debate motions as well as debate competions
+                        I worked as an intern for Tore's Foundation from September 2019 to February 2020 During my time there Ii was
+responsible for organising and setting up debate motions as well as debate competitions
                         
                         </Typography>
                     </Box>

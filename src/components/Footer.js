@@ -3,7 +3,7 @@ import { makeStyles} from "@material-ui/styles";
 import { BottomNavigation, BottomNavigationAction } from "@material-ui/core";
 import Github from "@material-ui/icons/GitHub";
 import LinkedIn from "@material-ui/icons/LinkedIn";
-import Twitter from "@material-ui/icons/Twitter";
+ 
 import Instagram from "@material-ui/icons/Instagram";
 const useStyles = makeStyles({
 root: {
@@ -26,7 +26,7 @@ const Footer = () => {
         (<BottomNavigation width="auto" style={{background: "transparent" }} >
             <BottomNavigationAction className={classes.root} style={{padding: 0}} icon={<Github  />} href="https://github.com/Denela" />
             <BottomNavigationAction className={classes.root} style={{padding: 0}} icon={<LinkedIn/>} href="https://www.linkedin.com/in/derek-gwekwerere-a53276100/" />
-            <BottomNavigationAction className={classes.root} style={{padding: 0}} icon={<Twitter/>} />
+            
             <BottomNavigationAction className={classes.root} style={{padding: 0}} icon={<Instagram/>} href="https://www.instagram.com/denellla/" />
 
         </BottomNavigation>)

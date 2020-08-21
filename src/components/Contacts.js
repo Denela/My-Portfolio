@@ -53,16 +53,8 @@ const Contacts = () => {
             <Navbar />
             <Grid container justify="center">
                 <Box component="form" className={classes.form} >
-                    <Typography variant="h5" style={{color: "tomato", textAlign: "center", textTransform: "uppercase",}} > hire or contact me...</Typography>
-                    <InputField fullwidth={true} label="Name" variant="outlined" inputProps={{style: {color:"white"}}} margin="dense" size="medium" />
-                    <br />
-                    <InputField fullwidth={true} label="Email" variant="outlined"  inputProps={{style: {color:"white"}}} margin="dense" size="medium" />
-                    <br />
-                    <InputField fullwidth={true} label="Message" variant="outlined"  inputProps={{style: {color:"white"}}} margin="dense" size="medium" />
-                    <br />
-                    <Button className={classes.button} variant= "outlined" fullwidth={true} endIcon={<SendIcon />} >
-                        contact me
-                    </Button>
+                    <Typography variant="h6" style={{color: "tomato", textAlign: "center", textTransform: "uppercase",}} > Please get in touch with me on any of the below listed.</Typography>
+                    
                     <br /> 
                     <br />
                     <br />
@@ -71,7 +63,7 @@ const Contacts = () => {
                     <br />
                     <Footer />
                     
-                    <p style={{color:"tan"}} ><BottomNavigationAction className={classes.root} style={{padding: 0, color:"tomato" }} icon={<PhoneIcon/>} />+27 635 0846</p>
+                    <p style={{color:"tan"}} ><BottomNavigationAction href="tel:number"  className={classes.root} style={{ paddingLeft : '41%', color:"tomato", textAlign:"center" }} icon={<PhoneIcon/>} />+27 626 350 846</p>
                 </Box>
                 
             </Grid>

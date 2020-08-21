@@ -40,7 +40,7 @@ const Portfolio = () => {
                 {/* Project 1 */}
                 <Grid item xs={12} sm={8} md={6}>
                 <Card className={classes.cardContainer} >
-                    <CardActionArea>
+                    <CardActionArea href="https://www.freecodecamp.org/certification/denela/responsive-web-design" >
                         <CardMedia component="img" alt="Project 1" height="140" image={project1} />
                         <CardContent>
                             <Typography gutterBottom variant="h5">
@@ -67,7 +67,7 @@ const Portfolio = () => {
                  {/* Project 2 */}
                  <Grid item xs={12} sm={8} md={6}>
                 <Card className={classes.cardContainer} >
-                    <CardActionArea>
+                    <CardActionArea href="https://www.sololearn.com/Profile/17750635" >
                         <CardMedia component="img" alt="Project 2" height="140" image={project2} />
                         <CardContent>
                             <Typography gutterBottom variant="h5">
@@ -89,7 +89,7 @@ const Portfolio = () => {
              {/* Project 3 */}
              <Grid item xs={12} sm={8} md={6}>
                 <Card className={classes.cardContainer} >
-                    <CardActionArea>
+                    <CardActionArea href="https://www.sololearn.com/Profile/17750635" >
                         <CardMedia component="img" alt="Project 2" height="140" image={project3} />
                         <CardContent>
                             <Typography gutterBottom variant="h5">
@@ -110,7 +110,7 @@ const Portfolio = () => {
             </Grid>
               {/* Project 4 */}
               <Grid item xs={12} sm={8} md={6}>
-                <Card className={classes.cardContainer} >
+                <Card className={classes.cardContainer} href="https://github.com/Denela/lottery-project/raw/master/project%20(2).exe" >
                     <CardActionArea>
                         <CardMedia component="img" alt="Project 2" height="140" image={project4} />
                         <CardContent>
@@ -123,10 +123,10 @@ const Portfolio = () => {
                         </CardContent>
                     </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary" >
+                            <Button size="small" color="primary"  >
                                 Share
                             </Button>
-                            <Button size="small" color="primary" >
+                            <Button size="small" color="primary" href="https://github.com/Denela/lottery-project/raw/master/project%20(2).exe" >
                                 Live demo
                             </Button>
                         </CardActions>
@@ -136,7 +136,7 @@ const Portfolio = () => {
          </Grid>
          <Grid container justify="center" >
          <div  className="skills"  >
-                <h1>My Skills</h1>
+                <h1 className="head" >My Skills </h1>
 
                 <li>
 
